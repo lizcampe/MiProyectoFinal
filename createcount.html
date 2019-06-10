@@ -1,0 +1,46 @@
+
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <link rel="shortcut icon" href="%PUBLIC_URL%/favicon.ico" />
+    <link rel="stylesheet" type="text/css" href="css/estilos.css" media="screen" />
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans&display=swap" rel="stylesheet">
+  </head>
+   	<form id= "centro">
+
+    	<div>
+    		<img src="img/image.png"  class="image" width="81.5px" height="81.6 px" id= "peque"><br>
+      </div>
+      
+      <div>
+      <a class="Select-your-username">Select your user name </a>
+      <p class= "Username"> Username </p>
+        <input class= "Rectangle-20" type="text" name="text">
+      </div>
+    	<div>
+    		<p class= "Username"> E-mail </p>
+    		<input class= "Rectangle-20" type="email" name="E-mail">
+    	</div>
+    	<div>
+    		<p class= "Password"> Password </p>
+    		<input class= "Rectangle-20" type="password" name="Username">
+    		
+    	</div>
+    	<br>
+      <form onsubmit="return checkForm(this);">
+        
+        <p class="Agree"><input   type="checkbox" required name="terms"> I agree of the <u class= "Privacy-Policy">Terms of Services </u> & <u class= "Privacy-Policy"> Privacy Policy</u> </p>
+        <button class= "Search-Container" type="submit" name= "Get started"> <a class ="starter">Get started</a> </button>
+
+    	<div >
+    		<p class="Agree"  id= "peque" href="/login">Already have an account?<a class ="starter">Sing in</a> </p>
+    	</div>
+
+
+    </form>
+    
+
+  </body>
+</html>
