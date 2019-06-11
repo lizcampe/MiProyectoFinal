@@ -12,7 +12,8 @@ body{
 
 #peque {
 	width: 285px;
-	margin: 0px auto;
+  margin: 0px auto;
+  font-family: 'Open Sans', sans-serif;
 }
 
 
@@ -20,13 +21,19 @@ body{
 .Login {
   width: 1920px;
   height: 1080px;
-  background-color: var(--white);
+  background-color: white;
 }
 
 
 .image {
   width: 81.5px;
   height: 81.6px;
+  object-fit: contain;
+}
+
+.image1 {
+  width: 44.1px;
+  height: 44.2px;
   object-fit: contain;
 }
 
@@ -48,7 +55,7 @@ body{
   height: 44px;
   border-radius: 3px;
   border: solid 1px #cccccc;
-  background-color: var(--white);
+  background-color: white;
 }
 
 .Password {
@@ -69,9 +76,21 @@ body{
   height: 44px;
   border-radius: 3px;
   border: solid 1px #ff0a39;
-  background-color: var(--white);
+  background-color: white;
 }
 
+.Searchtxt {
+  width: 65px;
+  height: 18px;
+  font-size: 15px;
+  font-weight: 500;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 2.17;
+  letter-spacing: 0.5px;
+  text-align: left;
+  color: #999999;
+}
 .Wrong-Password {
   width: 93px;
   height: 15px;
@@ -101,7 +120,7 @@ body{
   font-stretch: normal;
   line-height: 1.25;
   letter-spacing: 0.2px;
-  text-align: left;
+  text-align: center;
   color: #363840;
 }
 
@@ -153,11 +172,87 @@ body{
   width: 215.9px;
   height: 52.4px;
   border-radius: 40px;
+  color text-emphasis: white;
+  align: center;
   background-color: #7463d3;
 }
 
-.started {
+.Search-Container1 {
+  width: 238.3px;
+  height: 35.4px;
+  border-radius: 40px;
+  background-color: #f8f8f8;
+}
+
+.Search-Container2 {
+  width: 179.9px;
+  height: 35.4px;
+  border-radius: 40px;
+  border: solid 2px #e0e0e0;
+  background-color: white;
+}
+
+.Search-Icon {
+  width: 34.1px;
+  height: 34.1px;
+}
+
+#started {
   width: 94px;
+  height: 18px;
+  font-size: 18px;
+  color: white;
+  font-weight: 600;
+  line-height: 1.06;
+  letter-spacing: 0.5px;
+  text-align: center;
+  
+}
+
+.help {
+  width: 83.1px;
+  height: 83.1px;
+  object-fit: contain;
+  text-align: center<
+}
+
+.lost {
+  width: 335px;
+  height: 21px;
+  font-size: 17px;
+  font-weight: normal;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1.24;
+  letter-spacing: normal;
+  text-align: left;
+  color: #363840;
+}
+
+.Forgot-your-password {
+  width: 236px;
+  height: 22px;
+  font-size: 15px;
+  font-weight: 500;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1.09;
+  letter-spacing: 0.6px;
+  text-align: left;
+  color: #111111;
+}
+
+.passlost {
+  width: 432px;
+  height: 35.9px;
+  border-radius: 3px;
+  border: solid 1px #cccccc;
+  background-color: var(--white);
+}
+
+
+.send {
+  width: 44px;
   height: 18px;
   font-size: 18px;
   font-weight: 600;
@@ -166,5 +261,45 @@ body{
   line-height: 1.06;
   letter-spacing: 0.5px;
   text-align: center;
-  color: var(--white);
+  color: white;
+}
+
+.return-to-login {
+  opacity: 0.4;
+  font-size: 17px;
+  font-weight: normal;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1.24;
+  letter-spacing: 0.3px;
+  text-align: center;
+  color: #363840;
+}
+
+.Forgot-your-password2 {
+  width: 236px;
+  height: 22px;
+  font-size: 22px;
+  font-weight: 500;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1.09;
+  letter-spacing: 0.6px;
+  text-align: left;
+  color: #111111;
+}
+
+.Profile-Image {
+  width: 61.2px;
+  height: 61.2px;
+  object-fit: contain;
+  border: solid 1px #f1f1f1;
+}
+
+.hitRegion {
+  width: 100%; 
+  height: calc(100% + 12px); 
+  top: 0px; 
+  left: -6px; 
+  color: #f8f8f8;
 }

@@ -1,0 +1,47 @@
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <link rel="shortcut icon" href="%PUBLIC_URL%/favicon.ico" />
+    <link rel="stylesheet" type="text/css" href="css/estilos.css" media="screen" />
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans&display=swap" rel="stylesheet">
+  </head>
+  <body>
+        <Navbar bg="light" expand="lg">
+                <Navbar.Brand href="#home"><img src="img/image1.png"
+                    srcset="img/image@2x.png 2x, img/image@3x.png 3x" class="image1"></Navbar.Brand>
+                <Navbar.Toggle aria-controls="basic-navbar-nav" />
+                <Navbar.Collapse id="basic-navbar-nav">
+                  <Nav className="mr-auto">
+                    <Nav.Link href="#home">Home</Nav.Link>
+                    <Form inline>
+                            <FormControl  type="text" placeholder="Search"  />
+                            <Button class= "Search-Container1"> <a class= "Searchtxt"> Search </a> </Button>
+                          </Form>
+                    <Nav.Link href="#link">Link</Nav.Link>
+                    <NavDropdown title="Dropdown" id="basic-nav-dropdown">
+                      <NavDropdown.Item href="#action/3.1">Action</NavDropdown.Item>
+                      <NavDropdown.Divider />
+                           <FormControl  type="text" placeholder="Search"  />
+                            <Button class= "Search-Container2"> <a class= "Searchtxt"> Submit a photo </a> </Button>
+                          
+                      <NavDropdown.Item href="#action/3.4">
+                        <Col xs={6} md={4}>
+                            <Image class= "Profile-Image" src="img/profile.jpg" roundedCircle />
+                          </Col>
+                    </NavDropdown.Item>
+                    </NavDropdown>
+                  </Nav>
+
+                </Navbar.Collapse>
+              </Navbar>
+              <br>
+
+ <div class="hitRegion" ></div>
+
+
+
+
+
+  </body>
