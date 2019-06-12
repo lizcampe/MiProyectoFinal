@@ -84,7 +84,6 @@ body{
   height: 18px;
   font-size: 15px;
   font-weight: 500;
-  font-style: normal;
   font-stretch: normal;
   line-height: 2.17;
   letter-spacing: 0.5px;
@@ -190,11 +189,26 @@ body{
   border-radius: 40px;
   border: solid 2px #e0e0e0;
   background-color: white;
+  
+}
+
+#Search {
+  width: 179.9px;
+  height: 35.4px;
+  border-radius: 40px;
+  border: solid 2px #e0e0e0;
+  background-color: white;
 }
 
 .Search-Icon {
   width: 34.1px;
   height: 34.1px;
+
+}
+
+.alarma {
+  width: 23.4px;
+  height: 25.9px;
 }
 
 #started {
@@ -302,4 +316,14 @@ body{
   top: 0px; 
   left: -6px; 
   color: #f8f8f8;
+}
+
+.Submit {
+  width: 126px;
+  height: 18px;
+  font-size: 16px;
+  font-style: normal;
+  font-stretch: normal;
+  text-align: center;
+  color: #999999;
 }
